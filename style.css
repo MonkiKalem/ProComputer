@@ -1,0 +1,106 @@
+body {
+    font-family: "Reddit Sans", sans-serif;
+}
+h2 {
+    font-weight: bolder;
+}
+/* Hero Section Styling */
+.hero-section {
+    background-color: #f8f9fa; /* Light background for hero section */
+    padding: 2rem 0;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000;
+  }
+  
+  .highlight {
+    color: #5BE4A9; /* Color for "ProComputer" text */
+  }
+  
+  .hero-text p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    background-color: #7262FF; /* Custom button color */
+    border-color: #7262FF;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6456e4;
+    border-color: #6456e4;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+/* Card Section Styling */
+.service-section {
+    background-color: #f8f9fa; /* Light background color for the section */
+  }
+  
+  .custom-card {
+    border: 2px solid #d3d3ff; /* Border color similar to your design */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px); /* Hover effect to lift the card */
+  }
+  
+  .card-icon {
+    width: 77px; /* Adjust icon size */
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  .card-link {
+    font-weight: bold;
+    color: #5b7cfa; /* Color matching the 'Read More' link */
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    color: #4667d0; /* Slightly darker color on hover */
+  }
+  
+  
+  .about-section .row div {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .testimonial-section .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 40px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+  }
+  
